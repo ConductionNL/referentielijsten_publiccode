@@ -1,0 +1,129 @@
+{
+  "openapi": "3.0.0",
+  "collection": "https://raw.githubusercontent.com/VNG-Realisatie/VNG-referentielijsten/master/src/openapi.yaml",
+  "schemas": {
+    "ProcesType": [
+      {
+        "properties": {
+          "url": "http://example.com",
+          "nummer": 32767,
+          "jaar": 2020,
+          "naam": "Klantcontact",
+          "omschrijving": "string",
+          "toelichting": "string",
+          "procesobject": "string"
+        }
+      }
+    ],
+    "Resultaat":[
+      {
+        "properties": {
+          "url": "http://example.com",
+          "procesType": "http://localhost/api/procestypen/id",
+          "nummer": 32767,
+          "volledigNummer": "string",
+          "generiek": true,
+          "specifiek": true,
+          "naam": "string",
+          "omschrijving": "string",
+          "herkomst": "string",
+          "waardering": "blijvend_bewaren",
+          "procestermijn": "nihil",
+          "procestermijnWeergave": "string",
+          "bewaartermijn": "string",
+          "toelichting": "string",
+          "algemeenBestuurEnInrichtingOrganisatie": true,
+          "bedrijfsvoeringEnPersoneel": true,
+          "publiekeInformatieEnRegistratie": true,
+          "burgerzaken": true,
+          "veiligheid": true,
+          "verkeerEnVervoer": true,
+          "economie": true,
+          "onderwijs": true,
+          "sportCultuurEnRecreatie": true,
+          "sociaalDomein": true,
+          "volksgezonheidEnMilieu": true,
+          "vhrosv": true,
+          "heffenBelastingen": true,
+          "alleTaakgebieden": true,
+          "procestermijnOpmerking": "string"
+        }
+      },
+      {
+        "properties": {
+          "url": "http://example.com",
+          "procesType": "http://localhost/api/procestypen/id",
+          "nummer": 32767,
+          "volledigNummer": "string",
+          "generiek": true,
+          "specifiek": true,
+          "naam": "string",
+          "omschrijving": "string",
+          "herkomst": "string",
+          "waardering": "blijvend_bewaren",
+          "procestermijn": "nihil",
+          "procestermijnWeergave": "string",
+          "bewaartermijn": "string",
+          "toelichting": "string",
+          "algemeenBestuurEnInrichtingOrganisatie": true,
+          "bedrijfsvoeringEnPersoneel": true,
+          "publiekeInformatieEnRegistratie": true,
+          "burgerzaken": true,
+          "veiligheid": true,
+          "verkeerEnVervoer": true,
+          "economie": true,
+          "onderwijs": true,
+          "sportCultuurEnRecreatie": true,
+          "sociaalDomein": true,
+          "volksgezonheidEnMilieu": true,
+          "vhrosv": true,
+          "heffenBelastingen": true,
+          "alleTaakgebieden": true,
+          "procestermijnOpmerking": "string"
+        }
+      },
+      {
+        "properties": {
+          "url": "http://example.com",
+          "procesType": "http://localhost/api/procestypen/id",
+          "nummer": 32767,
+          "volledigNummer": "string",
+          "generiek": true,
+          "specifiek": true,
+          "naam": "string",
+          "omschrijving": "string",
+          "herkomst": "string",
+          "waardering": "blijvend_bewaren",
+          "procestermijn": "nihil",
+          "procestermijnWeergave": "string",
+          "bewaartermijn": "string",
+          "toelichting": "string",
+          "algemeenBestuurEnInrichtingOrganisatie": true,
+          "bedrijfsvoeringEnPersoneel": true,
+          "publiekeInformatieEnRegistratie": true,
+          "burgerzaken": true,
+          "veiligheid": true,
+          "verkeerEnVervoer": true,
+          "economie": true,
+          "onderwijs": true,
+          "sportCultuurEnRecreatie": true,
+          "sociaalDomein": true,
+          "volksgezonheidEnMilieu": true,
+          "vhrosv": true,
+          "heffenBelastingen": true,
+          "alleTaakgebieden": true,
+          "procestermijnOpmerking": "string"
+        }
+      },
+    ],
+    "CommunicatieKanaal": [
+      {
+        "properties": {
+          "url": "http://example.com",
+          "naam": "E-mail",
+          "omschrijving": "Contact over e-mail"
+        }
+      }
+    ]
+  }
+}
