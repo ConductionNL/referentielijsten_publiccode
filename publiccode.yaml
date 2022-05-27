@@ -26,12 +26,12 @@ description:
     shortDescription: "Referentie en selectielijsten api"
     documentation: 'https://referentielijsten-api.vng.cloud/api/v1/schema/'
     apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/VNG-referentielijsten/master/src/openapi.yaml'
-    # testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/contactmomenten_publiccode/main/data/contactmomenten.json'
+    testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/referentielijsten_publiccode/main/data/referentielijsten.json'
   en:
     shortDescription: "Reference and selection lists api"
     documentation: 'https://referentielijsten-api.vng.cloud/api/v1/schema/'
     apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/VNG-referentielijsten/master/src/openapi.yaml'
-    # testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/contactmomenten_publiccode/main/data/contactmomenten.json'
+    testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/referentielijsten_publiccode/main/data/referentielijsten.json'
 
 dependsOn:
   open:
