@@ -24,13 +24,13 @@ developmentStatus: beta
 description:
   nl:
     shortDescription: "Referentie en selectielijsten api"
-    documentation: 'https://referentielijsten-api.vng.cloud/api/v1/schema/'
-    apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/VNG-referentielijsten/master/src/openapi.yaml'
+    documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/ConductionNL/referentielijsten_publiccode/main/OAS.yaml&nocors'
+    apiDocumentation: 'https://raw.githubusercontent.com/ConductionNL/referentielijsten_publiccode/main/OAS.yaml'
     testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/referentielijsten_publiccode/main/data/referentielijsten.json'
   en:
     shortDescription: "Reference and selection lists api"
-    documentation: 'https://referentielijsten-api.vng.cloud/api/v1/schema/'
-    apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/VNG-referentielijsten/master/src/openapi.yaml'
+    documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/ConductionNL/referentielijsten_publiccode/main/OAS.yaml&nocors'
+    apiDocumentation: 'https://raw.githubusercontent.com/ConductionNL/referentielijsten_publiccode/main/OAS.yaml'
     testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/referentielijsten_publiccode/main/data/referentielijsten.json'
 
 dependsOn:

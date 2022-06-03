@@ -1,6 +1,6 @@
 {
   "openapi": "3.0.0",
-  "collection": "https://raw.githubusercontent.com/VNG-Realisatie/VNG-referentielijsten/master/src/openapi.yaml",
+  "collection": "https://raw.githubusercontent.com/ConductionNL/referentielijsten_publiccode/main/OAS.yaml",
   "schemas": {
     "ProcesType": [
       {
