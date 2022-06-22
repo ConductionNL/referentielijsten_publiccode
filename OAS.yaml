@@ -861,6 +861,12 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ResultaattypeOmschrijvingGeneriek'
+    delete:
+      summary: ''
+      operationId: delete-ref-resultaattypeomschrijvingen-uuid
+      responses:
+        '200':
+          description: OK
   /ref/resultaten:
     get:
       operationId: resultaat_list
