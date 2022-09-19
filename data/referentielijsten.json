@@ -124,6 +124,22 @@
           "omschrijving": "Contact over e-mail"
         }
       }
+    ],
+    "ResultaattypeOmschrijvingGeneriek": [
+      {
+        "properties": {
+            "definitie": "Klant heeft het contact beendigd omdat het probleem verholpen is",
+            "omschrijving": "Geannuleerd"
+        },        
+        "properties": {
+            "definitie": "Klant heeft het contact gestart maar er niet meer op gereageerd",
+            "omschrijving": "Verlopen"
+        },        
+        "properties": {
+            "definitie": "Het contact is successvol afgehandeld naar wens van de klant",
+            "omschrijving": "Afgehandeld"
+        }
+      }
     ]
   }
 }
