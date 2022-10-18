@@ -127,6 +127,375 @@
             ]
           }
         }
+      },
+      {
+        "properties": {
+          "id": 5,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/afval/",
+          "name": "Afval",
+          "slug": "afval",
+          "taxonomy": "openpub_skill",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill/5"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_skill"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_skill=5"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": 6,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/algemeen/",
+          "name": "Algemeen",
+          "slug": "algemeen",
+          "taxonomy": "openpub_skill",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill/6"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_skill"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_skill=6"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": 7,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/belastingen/",
+          "name": "Belastingen",
+          "slug": "belastingen",
+          "taxonomy": "openpub_skill",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill/6"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_skill"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_skill=6"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": 8,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/bouw-en-ruimtelijke-ordening/",
+          "name": "Bouw en ruimtelijke ordening",
+          "slug": "bouw-en-ruimtelijke-ordening",
+          "taxonomy": "openpub_skill",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill/8"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_skill"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_skill=8"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": 9,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/burgerzaken/",
+          "name": "Burgerzaken",
+          "slug": "burgerzaken",
+          "taxonomy": "openpub_skill",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill/9"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_skill"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_skill=9"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": 10,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/corona/",
+          "name": "Corona",
+          "slug": "corona",
+          "taxonomy": "openpub_skill",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill/10"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_skill"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_skill=10"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": 11,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/groen/",
+          "name": "Groen",
+          "slug": "groen",
+          "taxonomy": "openpub_skill",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill/11"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_skill"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_skill=11"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": 12,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/kcc/",
+          "name": "KCC",
+          "slug": "kcc",
+          "taxonomy": "openpub_skill",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill/12"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_skill"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_skill=12"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": 13,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/milieu/",
+          "name": "Milieu",
+          "slug": "milieu",
+          "taxonomy": "openpub_skill",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill/13"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_skill"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_skill=13"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
       }
     ],
   }
