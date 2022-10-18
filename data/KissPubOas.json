@@ -1,1 +1,133 @@
-todo
+{
+  "openapi": "3.1.0",
+  "collection": "https://raw.githubusercontent.com/ConductionNL/referentielijsten_publiccode/main/KissPubOas.yaml",
+  "schemas": {
+    "kiss_openpub_type": [
+      {
+        "properties": {
+          "id": 2,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/nieuws/",
+          "name": "Nieuws",
+          "slug": "nieuws",
+          "taxonomy": "openpub_type",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_type/2"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_type"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_type"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_type=2"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": 3,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/werkinstructie/",
+          "name": "Werkinstructie",
+          "slug": "werkinstructie",
+          "taxonomy": "openpub_type",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_type/3"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_type"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_type"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_type=3"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "kiss_openpub_skill": [
+      {
+        "properties": {
+          "id": 4,
+          "count": 0,
+          "description": "",
+          "link": "https://openweb.kiss.commonground.nu/openpub_type/afspraken/",
+          "name": "Afspraken",
+          "slug": "afspraken",
+          "taxonomy": "openpub_skill",
+          "parent": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill/4"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/openpub_skill"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/taxonomies/openpub_skill"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://openweb.kiss.commonground.nu/wp-json/wp/v2/kiss_openpub_pub?openpub_skill=4"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      }
+    ],
+  }
+}
