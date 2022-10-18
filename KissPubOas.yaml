@@ -119,7 +119,8 @@ components:
         acf:
           type: object
         _links:
-          type: object
+          type: array
+          items: {}
     kiss_openpub_type:
       title: Type
       x-stoplight:
@@ -154,4 +155,5 @@ components:
         acf:
           type: object
         _links:
-          type: object
+          type: array
+          items: {}
