@@ -98,6 +98,8 @@ components:
             - number
           example: 84
           readOnly: true
+        identifier:
+          type: number
         count:
           type: integer
         description:
@@ -133,6 +135,8 @@ components:
             - number
           example: 84
           readOnly: true
+        identifier:
+          type: number
         count:
           type: integer
         description:
