@@ -5,7 +5,7 @@
     "kiss_openpub_type": [
       {
         "properties": {
-          "id": 2,
+          "identifier": 2,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/nieuws/",
@@ -46,7 +46,7 @@
       },
       {
         "properties": {
-          "id": 3,
+          "identifier": 3,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/werkinstructie/",
@@ -89,7 +89,7 @@
     "kiss_openpub_skill": [
       {
         "properties": {
-          "id": 4,
+          "identifier": 4,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/afspraken/",
@@ -130,7 +130,7 @@
       },
       {
         "properties": {
-          "id": 5,
+          "identifier": 5,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/afval/",
@@ -171,7 +171,7 @@
       },
       {
         "properties": {
-          "id": 6,
+          "identifier": 6,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/algemeen/",
@@ -212,7 +212,7 @@
       },
       {
         "properties": {
-          "id": 7,
+          "identifier": 7,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/belastingen/",
@@ -253,7 +253,7 @@
       },
       {
         "properties": {
-          "id": 8,
+          "identifier": 8,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/bouw-en-ruimtelijke-ordening/",
@@ -294,7 +294,7 @@
       },
       {
         "properties": {
-          "id": 9,
+          "identifier": 9,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/burgerzaken/",
@@ -335,7 +335,7 @@
       },
       {
         "properties": {
-          "id": 10,
+          "identifier": 10,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/corona/",
@@ -376,7 +376,7 @@
       },
       {
         "properties": {
-          "id": 11,
+          "identifier": 11,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/groen/",
@@ -417,7 +417,7 @@
       },
       {
         "properties": {
-          "id": 12,
+          "identifier": 12,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/kcc/",
@@ -458,7 +458,7 @@
       },
       {
         "properties": {
-          "id": 13,
+          "identifier": 13,
           "count": 0,
           "description": "",
           "link": "https://openweb.kiss.commonground.nu/openpub_type/milieu/",
