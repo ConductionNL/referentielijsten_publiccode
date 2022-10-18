@@ -1,0 +1,157 @@
+openapi: 3.1.0
+x-stoplight:
+  id: 03w69o9fktqfr
+info:
+  title: PUB Referentielijsten
+  version: '1.0'
+  license:
+    url: 'https://opensource.org/licenses/EUPL-1.2'
+    name: EUPL-1.2
+  contact:
+    name: Ruben
+    url: van der Linde
+    email: ruben@conduction.nl
+  description: Provides two lists of (wordpress based) pub skills and types
+servers:
+  - url: 'http://localhost'
+paths:
+  '/ref/openpub_skills/{id}':
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: The identifier of the skill
+    get:
+      summary: Get single skill item
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/kiss_openpub_skill'
+      operationId: get-openpubSkills-skillId
+      description: Retrieve a single skill
+  /ref/openpub_skills:
+    parameters: []
+    get:
+      summary: Get skills list
+      operationId: get-openpub_skills
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/kiss_openpub_skill'
+      description: Get a list of skills
+  '/ref/openpub_types/{id}':
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: The identifier of the type
+    get:
+      summary: Get single type item
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/kiss_openpub_type'
+      operationId: get-openpub_types-typeId
+      description: Retrieve a single type
+  /ref/openpub_types:
+    parameters: []
+    get:
+      summary: Get types list
+      operationId: get-openpub_types
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/kiss_openpub_type'
+      description: Get a list of types
+components:
+  schemas:
+    kiss_openpub_skill:
+      title: Skill
+      x-stoplight:
+        id: jzt0ufutjr090
+      type: object
+      description: A skill conform the Open Pub standard
+      properties:
+        id:
+          type:
+            - string
+            - number
+          example: 84
+          readOnly: true
+        count:
+          type: integer
+        description:
+          type: string
+        link:
+          type: string
+          example: 'https://openweb.kiss.commonground.nu/openpub_skill/afval/'
+        name:
+          type: string
+        slug:
+          type: string
+          example: afval
+        taxonomy:
+          type: string
+        parent:
+          type: number
+        meta:
+          type: object
+        acf:
+          type: object
+        _links:
+          type: object
+    kiss_openpub_type:
+      title: Type
+      x-stoplight:
+        id: jzt0ufutjr090
+      type: object
+      description: A type conform the Open Pub standard
+      properties:
+        id:
+          type:
+            - string
+            - number
+          example: 84
+          readOnly: true
+        count:
+          type: integer
+        description:
+          type: string
+        link:
+          type: string
+          example: 'https://openweb.kiss.commonground.nu/openpub_type/nieuws/'
+        name:
+          type: string
+        slug:
+          type: string
+          example: nieuws
+        taxonomy:
+          type: string
+        parent:
+          type: number
+        meta:
+          type: object
+        acf:
+          type: object
+        _links:
+          type: object
