@@ -83,6 +83,24 @@ paths:
                 items:
                   $ref: '#/components/schemas/kiss_openpub_type'
       description: Get a list of types
+  /ref/afdelingsnamen:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-ref-afdelingsnamen
+  '/ref/afdelingsnamen/{id}':
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-ref-afdelingsnamen-id
 components:
   schemas:
     kiss_openpub_skill:
@@ -159,3 +177,11 @@ components:
           type: object
         _links:
           type: object
+    Afdelingsnaam:
+      title: Afdelingsnaam
+      x-stoplight:
+        id: k1g01x7n7n39b
+      type: object
+      properties:
+        name:
+          type: string
